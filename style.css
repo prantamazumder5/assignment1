@@ -1,0 +1,181 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #006747;
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.sign-in-btn {
+    background-color: #fff;
+    color: #006747;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #e3f2fd;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.explore-btn {
+    background-color: #006747;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+.pillars {
+    background-color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.pillars h3 {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.pillars-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.pillar {
+    background-color: #f1f1f1;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pillar img {
+    max-width: 50px;
+    margin-bottom: 1rem;
+}
+
+
+.vision {
+    background-color: #e8f5e9;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.vision-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.vision-item {
+    background-color: #f1f1f1;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.opinion {
+    background-color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.opinion form {
+    margin-top: 1rem;
+}
+
+.options label {
+    font-weight: bold;
+    margin-left: 0.5rem;
+}
+
+
+.recent-news {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+}
+
+.news-item {
+    background-color: #fff;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.news-item img {
+    max-width: 100px;
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+
+.news-item button {
+    background-color: #006747;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.donate {
+    background-color: #e3f2fd;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.donation-options button {
+    background-color: #006747;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+
+.footer {
+    background-color: #006747;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
